@@ -18,7 +18,7 @@ const bnZero = new BN("0", 10);
 // Get web3
 const customProvider = new HDWalletProvider(
   [process.env.ETH_SK],
-  `https://rpc.testnet.pulsechain.com`
+  `https://rpc.v2.testnet.pulsechain.com`
 );
 const web3 = new Web3(customProvider);
 
