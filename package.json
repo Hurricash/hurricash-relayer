@@ -1,0 +1,26 @@
+{
+  "name": "relayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@drizzle/store": "^1.5.3",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "bn.js": "^5.2.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^11.0.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "npm": "^8.3.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.6.1"
+  }
+}
