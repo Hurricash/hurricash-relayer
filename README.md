@@ -8,7 +8,7 @@ Send a payload to "https://relayer.hurricash.com" / localhost:3001 if launched l
 {
     "message": string,
     "signedMessage": string,
-    "receiver": address, // ethereum address
+    "receiver": address, // ethereum/pulse address
     "ethAmount": number,
     "ringIdx": number,
     "c0": string,
