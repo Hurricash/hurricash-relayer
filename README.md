@@ -21,12 +21,14 @@ Send a payload to "https://relayer.hurricash.com" / localhost:3001 if launched l
 ## Dependencies
 ```
 npm install
-npm start
+node app.js
 
 ```
 
 ## Running the relayer
 1. Clone the project and cd into it's root directory
+
+- create env file with ETH_SK="<INSERT_PKEY>"
  
 **Note 1:** Make sure the Pulse address associated with `ETH_SK` has some funds to start with (~0.5 PLS) minimum
 
